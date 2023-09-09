@@ -4,12 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>in/Acc</title>
-    <link rel="stylesheet" href="/input.css">
+      <meta name="description" content="A Vision for Technological Advancement in India">
+    
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<meta property="og:image" content="/og-image.png">
+    <link rel="icon" href="/assets/favicon-85cb4291.ico" sizes="any">
+<link rel="icon" href="/assets/favicon-68453168.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+ <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="https://indacc.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="in/Acc">
+  <meta property="og:description" content="A Vision for Technological Advancement in India">
+  <meta property="og:image" content="https://i.ibb.co/xSB5phS/og-image.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="indacc.vercel.app">
+  <meta property="twitter:url" content="https://indacc.vercel.app/">
+  <meta name="twitter:title" content="in/Acc">
+  <meta name="twitter:description" content="A Vision for Technological Advancement in India">
+  <meta name="twitter:image" content="https://i.ibb.co/xSB5phS/og-image.png">
+    
+  <link rel="stylesheet" href="/assets/index-cc74ada6.css">
 </head>
 <body>
     <!--Hero Section-->
@@ -29,7 +45,7 @@
                     </svg>
                     
             </a>
-            <a href="#" target="_blank">
+            <a href="https://github.com/ybhrdwj/in-acc" target="_blank">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 2C10.6868 2 9.38642 2.25866 8.17317 2.7612C6.95991 3.26375 5.85752 4.00035 4.92893 4.92893C3.05357 6.8043 2 9.34784 2 12C2 16.42 4.87 20.17 8.84 21.5C9.34 21.58 9.5 21.27 9.5 21V19.31C6.73 19.91 6.14 17.97 6.14 17.97C5.68 16.81 5.03 16.5 5.03 16.5C4.12 15.88 5.1 15.9 5.1 15.9C6.1 15.97 6.63 16.93 6.63 16.93C7.5 18.45 8.97 18 9.54 17.76C9.63 17.11 9.89 16.67 10.17 16.42C7.95 16.17 5.62 15.31 5.62 11.5C5.62 10.39 6 9.5 6.65 8.79C6.55 8.54 6.2 7.5 6.75 6.15C6.75 6.15 7.59 5.88 9.5 7.17C10.29 6.95 11.15 6.84 12 6.84C12.85 6.84 13.71 6.95 14.5 7.17C16.41 5.88 17.25 6.15 17.25 6.15C17.8 7.5 17.45 8.54 17.35 8.79C18 9.5 18.38 10.39 18.38 11.5C18.38 15.32 16.04 16.16 13.81 16.41C14.17 16.72 14.5 17.33 14.5 18.26V21C14.5 21.27 14.66 21.59 15.17 21.5C19.14 20.16 22 16.42 22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2Z" fill="white" style="fill:white;fill:white;fill-opacity:1;"/>
                     </svg>
@@ -54,7 +70,7 @@
         
         <h2 class="font-semibold my-3 text-xl">II. Accelerating Civilization</h2>
         
-        <p class="text-slate-400 font-libre-serif">To harness the potential of our civilization, we will integrate digital technology into every aspect of life. This will include education, healthcare, agriculture, infrastructure, and energy. We aim to create a digital-first society where access to information and services is democratized, enhancing overall productivity and facilitating India's leap into a digitally empowered future.</p>
+        <p class="text-gray-400 font-libre-serif">To harness the potential of our civilization, we will integrate digital technology into every aspect of life. This will include education, healthcare, agriculture, infrastructure, and energy. We aim to create a digital-first society where access to information and services is democratized, enhancing overall productivity and facilitating India's leap into a digitally empowered future.</p>
         
         <h2 class="font-semibold my-3 text-xl">III. AI in Judiciary</h2>
         
@@ -66,7 +82,7 @@
         
         <h2 class="font-semibold my-3 text-xl" >V. Smart Infrastructure</h2>
         
-        <p class="text-slate-400 font-libre-serif my-3">Reducing Infrastructure Corruption: Infrastructure projects often become breeding grounds for corruption due to their complex, multifaceted nature and lack of transparency. AI-driven monitoring and blockchain technology can ensure the full transparency of processes, from tender bidding to project completion. This will also enable the early detection of anomalies, misappropriation of funds or materials, and other signs of corruption.</p>
+        <p class="text-gray-400 font-libre-serif my-3">Reducing Infrastructure Corruption: Infrastructure projects often become breeding grounds for corruption due to their complex, multifaceted nature and lack of transparency. AI-driven monitoring and blockchain technology can ensure the full transparency of processes, from tender bidding to project completion. This will also enable the early detection of anomalies, misappropriation of funds or materials, and other signs of corruption.</p>
         
         <ul class="text-gray-400 font-libre-serif my-3 list-disc pl-4 space-y-2">
         
